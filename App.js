@@ -56,11 +56,7 @@ const sw = createSwitchNavigator({
     })
   },
   switch2: {
-    screen: createMaterialTopTabNavigator({
-      tabs: {
-        screen: Page2
-      }
-    })
+    screen: Page2
   }
 });
 
